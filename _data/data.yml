@@ -1,0 +1,151 @@
+#
+#! 注意，即使是一个小的语法错误也可能导致输出失败。
+#
+
+sidebar:
+    position: right # 侧边栏位置：左或右
+    about: True # 如果不需要“如何使用?”在侧边栏中，设置为False或注释此行
+    education: True # 如果你希望教育经历显示在主要部分而不是侧边栏，请设置为False
+
+    # 个人资料
+    name: 熊鑫伟
+    tagline: 云原生后端开发人员 & 开源布道师
+    avatar: profile.png  #在/assets/images/文件夹内放置一张100x100的图片，并在下面提供文件名
+
+    # 侧边栏链接
+    email: 3293172751nss@gmail.com
+    phone: (+86)18672749565
+    timezone: 亚洲/上海
+    citizenship: 中国
+    website: nsddd.top
+    linkedin: cubxxw
+    xing:
+    twitter: xxw3293172751
+    github: cubxxw
+    telegram:
+    gitlab:
+    bitbucket:
+    stack-overflow:
+    codewars:
+    goodreads:
+    pdf: http://www.africau.edu/images/default/sample.pdf
+
+    languages:
+      title: 语言
+      info:
+        - idiom: 汉语
+          level: 母语
+
+        - idiom: 英语
+          level: 流利
+
+    interests:
+      title: 兴趣爱好
+      info:
+        - item: 编程
+          link:
+
+        - item: 开源贡献
+          link:
+
+        - item: 自动化系统
+          link:
+
+career-profile:
+    title: 职业简介
+    summary: |
+      熊鑫伟，OpenIM顶级开源项目的云原生后端开发人员及开源布道师。擅长基础设施自动化，具备
+      强烈的DevOps和敏捷开发热情，深度参与多个开源项目和社区。热衷于为挑战性任务设计解决方案，
+      不断学习新技术。
+
+education:
+    title: 教育经历
+    info:
+      - degree: 计算机科学与技术 - 本科
+        university: 武汉文理学院
+        time: 2020 - 2024.6
+        details: |
+          积极参与学校辩论赛，多次与团队合作针对复杂议题进行辩论表达。热衷参加志愿者活动，包括
+          地铁站和养老院服务。积极参与体育活动，如马拉松和篮球比赛。
+
+experiences:
+    title: 工作经验
+    info:
+      - role: 后端开发 & 开源布道师
+        time: 2023.3 - 至今
+        company: OpenIM
+        details: |
+          - 领导建立和发展OpenIM社区，创建并维护社区Slack平台。
+          - 参与OpenKF项目的提议、设计和管理，负责代码编写和审核。
+          - 为OpenIM Server完成功能设计和重构，优化Docker网络，支持镜像的多架构编译。
+          - 设计和实施OpenIM的集群部署策略，涵盖Kubernetes支持和微服务镜像的自动化。
+
+certifications:
+      title: 证书
+      list:
+        - name: Kubernetes 专家
+          start: 2021
+          end: 2022
+          organization: Linux 基金会
+          credentialid: 123-456
+          credentialurl: www.linuxfoundation.org
+          credentialname: Kubernetes Certification
+          details: |
+            成功完成由Linux基金会提供的Kubernetes专家认证课程，掌握了Kubernetes的高级应用和管理。
+
+projects:
+    title: 项目
+    intro: >
+      可在此处列出你的侧项目。涉及多种技术栈和开发领域。
+    assignments:
+      - title: OpenIM
+        link: https://github.com/OpenIMSDK/Open-IM-Server
+        tagline: "OpenIM的后端服务和社区驱动的开源项目。"
+
+      - title: OpenKF
+        link: https://github.com/OpenIMSDK/OpenKF
+        tagline: "为OpenIM相关项目提供框架和工具的开源套件。"
+
+oss:
+    title: 开源项目贡献
+    intro: >
+      你可以在这部分列出你的开源软件贡献。
+    contributions:
+      - title: OpenIM
+        link: https://github.com/OpenIMSDK/Open-IM-Server
+        tagline: "为OpenIM项目提供核心功能和维护支持。"
+
+      - title: kubecub
+        link: https://github.com/kubecub
+        tagline: "创建并维护kubecub，为云原生和开源项目提供工具和支持。"
+
+publications:
+    title: 出版物
+    intro: |
+      可在这部分列出你的出版物。
+    papers:
+      - title: 云原生架构深度解析
+        link: "#"
+        authors: 熊鑫伟
+        conference: 出版社，2023
+
+skills:
+    title: 技能 & 精通
+    toolset:
+      - name: Kubernetes
+        level: 95%
+
+      - name: Docker/Compose
+        level: 90%
+
+      - name: Git/Github
+        level: 88%
+
+      - name: Golang (go)
+        level: 85%
+
+      - name: CICD/Automation
+        level: 80%
+
+footer: >
+    Designed by Xinwei Xiong(cubxxw). View the open-source project on <a href="https://github.com/cubxxw/resume" target="_blank" rel="nofollow">GitHub</a>.
