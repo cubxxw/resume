@@ -45,10 +45,13 @@ sidebar:
         - item: 编程
           link:
 
-        - item: 开源贡献
+        - item: 开源
           link:
 
-        - item: 自动化系统
+        - item: 自动化
+          link:
+
+        - item: 户外徒步
           link:
 
 career-profile:
@@ -133,16 +136,19 @@ skills:
     title: 技能 & 精通
     toolset:
       - name: Kubernetes
-        level: 95%
+        level: 80%
 
       - name: Docker/Compose
         level: 90%
 
       - name: Git/Github
-        level: 88%
+        level: 90%
 
       - name: Golang (go)
         level: 85%
+
+      - name: Shell
+        level: 80%
 
       - name: CICD/Automation
         level: 80%

@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/43142525-7095-45a7-928f-f304c211a54a/deploy-status)](https://app.netlify.com/sites/resume-cubxxw/deploys)
+
 ## Installation
 
 * [Fork](https://github.com/cubxxw/resume/fork) the repository;
