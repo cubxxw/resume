@@ -1,34 +1,9 @@
-<a href="https://jekyll-themes.com">
-<img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
-</a>
-
-# Orbit
-> This theme is designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/).
-> Visit [her website](http://themes.3rdwavemedia.com/) for more themes.
-
-I have made this into a Jekyll Theme. Checkout the live demo [here](https://online-cv.webjeda.com).
-
-<table>
-  <tr>
-    <th>Desktop</th>
-    <th>Mobile</th>
-  </tr>
-  <tr>
-    <td>
-        <img src="https://online-cv.webjeda.com/assets/images/desktop.png?raw=true" width="600"/>
-    </td>
-    <td>
-        <img src="https://online-cv.webjeda.com/assets/images/mobile.png?raw=true" width="250"/>
-    </td>
-  </tr>
-</table>
-
 ## Installation
 
-* [Fork](https://github.com/sharu725/online-cv/fork) the repository;
+* [Fork](https://github.com/cubxxw/resume/fork) the repository;
 * Go to settings and set master branch as Github Pages source;
-* Your new site should be ready at `https://<username>.github.io/online-cv/`;
-* Printable version of the site can be found at `https://<username>.github.io/online-cv/print`. Use a third party link https://pdflayer.com/, https://www.web2pdfconvert.com/ etc to get the printable PDF.
+* Your new site should be ready at `https://<username>.github.io/resume/`;
+* Printable version of the site can be found at `https://<username>.github.io/resume/print`. Use a third party link https://pdflayer.com/, https://www.web2pdfconvert.com/ etc to get the printable PDF.
 
 Change all the details from one place: `_data/data.yml`.
 
@@ -46,7 +21,7 @@ Changes *_data/data.yml* will be visible after a while.
 * Get the repo into your machine 
 
 ```bash
-git clone https://github.com/sharu725/online-cv.git
+git clone https://github.com/cubxxw/resume.git
 ```
 
 * Install required ruby gems
@@ -64,27 +39,60 @@ bundle exec jekyll serve
 * Navigate to `http://localhost:4000`
 
 
-## Skins
+## Configuring Your Site with `_config.yml` 🛠️
 
-There are 6 color schemes available:
+In the `_config.yml` file, you can configure the core aspects of your Jekyll site. This YAML file serves as the heart of your site's settings, defining everything from the basic setup to advanced features.
 
-| Blue | Turquoise | Green |
-|---------|---------|---------|
-| <img src="https://online-cv.webjeda.com/assets/images/blue.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/turquoise.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/green.jpg" width="300"/> |
+Here's a breakdown of the configuration options provided:
 
-| Berry | Orange | Ceramic |
-|---------|---------|---------|
-| <img src="https://online-cv.webjeda.com/assets/images/berry.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/orange.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/ceramic.jpg" width="300"/> |
+```yaml
+# Update all the sections by editing the data.yml file inside _data folder.
 
-## Credits
+# Site Settings
+title: My Resume                   # The title of your site
+url: 'https://resume.nsddd.top'    # URL of your site
 
-Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=nelsonmestevao).
+# Change it according to your repository name
+# disabling since we are using a custom domain
+#baseurl: '/online-cv'             # Base URL for your project if hosted in a subpath
 
-Thanks to [t-h-e(sfrost)](https://github.com/t-h-e) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=t-h-e).
+description: A beautiful Jekyll theme for creating resume  # Description for SEO
+# Style will be applied only after restarting the build or serve. Just choose one of the options.
+theme_skin: green                 # Choose a color theme: blue, turquoise, green, berry, orange, ceramic
+chrome_mobile_color:              # HEX color for Chrome mobile search bar (e.g., #1976d2)
 
-Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com).
+# Tracker
+analytics: UA-83979019-1          # Google Analytics tracking ID
 
-## Star History
+# Sass/SCSS
+sass:
+  sass_dir: _sass                 # Directory for Sass files
+  style: compressed               # Output style for CSS: nested, expanded, compact, compressed
 
-[![Star History Chart](https://api.star-history.com/svg?repos=sharu725/online-cv&type=Date)](https://star-history.com/#sharu725/online-cv&Date)
+# Build settings
+compress-site: yes                # Enable/disable site compression
 
+encoding: "utf-8"                 # Character encoding standard
+compress_html:                    # HTML compression settings
+  clippings: all
+  ignore:
+    envs: development             # Ignore HTML compression in development mode
+
+# Development Settings
+port: 4000                        # Port number to run Jekyll locally
+host: 0.0.0.0                     # Host to bind to when running locally
+safe: false                       # Disable custom plugins, safe mode
+```
+
+### Detailed Explanation:
+- **Title & URL**: Define the title and the base URL of your site. These are crucial for your site’s identity and SEO.
+- **Base URL**: Useful when your site is hosted in a subdirectory and not at the root of the domain.
+- **Description & Theme Skin**: Set a site description and choose a theme color that aligns with your personal or brand style.
+- **Google Analytics**: Track site visits by entering your Google Analytics tracking ID.
+- **Sass/SCSS Configuration**: Manage the directory for Sass files and set the CSS output style.
+- **Compression**: Opt to compress your site content for faster load times.
+- **Encoding**: Ensure your site uses "utf-8" encoding to support international characters.
+- **HTML Compression**: Configure detailed HTML compression settings to optimize site performance.
+- **Development Settings**: Set the port and host for local development. Decide whether to enable Jekyll’s safe mode, which affects plugins.
+
+By configuring `_config.yml` appropriately, you can greatly influence the functionality and appearance of your Jekyll site, tailoring it to meet your specific needs.
