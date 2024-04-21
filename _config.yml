@@ -6,11 +6,11 @@ url: 'https://resume.nsddd.top'
 
 #change it according to your repository name
 # disabling since we are using a custom domain
-#baseurl: '/online-cv' 
+#baseurl: '/resume' 
 
 description: A beautiful Jekyll theme for creating resume
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
-theme_skin: green # blue turquoise green berry orange ceramic
+theme_skin: blue # blue turquoise green berry orange ceramic
 chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
 # Tracker
@@ -31,6 +31,6 @@ compress_html: # - http://jch.penibelst.de/
     envs: development
 
 # Development Settings
-port: 4000
+port: 40000
 host: 0.0.0.0
 safe: false

@@ -7,20 +7,19 @@ sidebar:
     about: True # 如果不需要“如何使用?”在侧边栏中，设置为False或注释此行
     education: True # 如果你希望教育经历显示在主要部分而不是侧边栏，请设置为False
 
-    # 个人资料
     name: 熊鑫伟
     tagline: 云原生后端开发人员 & 开源布道师
-    avatar: profile.png  #在/assets/images/文件夹内放置一张100x100的图片，并在下面提供文件名
+    avatar: profile.png
 
     # 侧边栏链接
     email: 3293172751nss@gmail.com
     phone: (+86)18672749565
     timezone: 亚洲/上海
-    citizenship: 中国
+    citizenship: china
     website: nsddd.top
     linkedin: cubxxw
     xing:
-    twitter: xxw3293172751
+    twitter:
     github: cubxxw
     telegram:
     gitlab:
@@ -28,7 +27,7 @@ sidebar:
     stack-overflow:
     codewars:
     goodreads:
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf:
 
     languages:
       title: 语言
@@ -43,45 +42,44 @@ sidebar:
       title: 兴趣爱好
       info:
         - item: 编程
-          link:
+          link: https://nsddd.top/zh/categories/%E5%BC%80%E5%8F%91-development/
 
         - item: 开源
-          link:
+          link: https://nsddd.top/zh/tags/%E5%BC%80%E6%BA%90-open-source/
 
         - item: 自动化
-          link:
+          link: https://nsddd.top/zh/tags/%E8%87%AA%E5%8A%A8%E5%8C%96-automation/
 
         - item: 户外徒步
-          link:
+          link: https://nsddd.top/zh/categories/%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF-personal-development/
 
 career-profile:
     title: 职业简介
     summary: |
-      熊鑫伟，OpenIM顶级开源项目的云原生后端开发人员及开源布道师。擅长基础设施自动化，具备
-      强烈的DevOps和敏捷开发热情，深度参与多个开源项目和社区。热衷于为挑战性任务设计解决方案，
-      不断学习新技术。
+      熊鑫伟，专注于云原生后端开发与开源项目。具备丰富的基础设施自动化经验，热衷于DevOps和敏捷开发。积极参与开源社区，致力于解决复杂挑战并持续学习新技术。积极参与顶级开源社区，通过创建和维护多种类型的开源项目（包括知识库、文档和工具）来不断提升专业技能，开源项目总计获得<a href="https://ossinsight.io/analyze/cubxxw" style="color: blue;">超过1,500个星标</a>。
 
-education:
-    title: 教育经历
-    info:
-      - degree: 计算机科学与技术 - 本科
-        university: 武汉文理学院
-        time: 2020 - 2024.6
-        details: |
-          积极参与学校辩论赛，多次与团队合作针对复杂议题进行辩论表达。热衷参加志愿者活动，包括
-          地铁站和养老院服务。积极参与体育活动，如马拉松和篮球比赛。
+# education:
+#     title: 教育经历
+#     info:
+#       - degree: 计算机科学与技术 - 本科
+#         university: 武汉文理学院
+#         time: 2020 - 2024.6
+#         details: |
+#           GPA为3.3/4.0，积极参与学校的辩论赛，马拉比赛，经常参与地铁志愿活动。带队参加互联网+创兴创业比赛项目获得省奖。
 
 experiences:
     title: 工作经验
     info:
       - role: 后端开发 & 开源布道师
-        time: 2023.3 - 至今
+        time: 2023.03 - 至今
         company: OpenIM
         details: |
-          - 领导建立和发展OpenIM社区，创建并维护社区Slack平台。
-          - 参与OpenKF项目的提议、设计和管理，负责代码编写和审核。
-          - 为OpenIM Server完成功能设计和重构，优化Docker网络，支持镜像的多架构编译。
-          - 设计和实施OpenIM的集群部署策略，涵盖Kubernetes支持和微服务镜像的自动化。
+          - 作为OpenIM社区[最积极的贡献者](https://github.com/openimsdk/open-im-server/graphs/contributors")，领导和推动社区发展，负责创建并维护社区的Slack交流平台。
+          - 主导OpenIM业务相关服务的开发，重构和维护，优化线上服务端产品的运维和bug修复流程。
+          - 设计并实施了多个自动化解决方案，包括CICD流程、测试体系和DevOps实践，以提高项目的部署效率和运营效果。
+          - 负责OpenIM Server的多架构编译和Docker网络优化，提高系统稳定性和可扩展性。
+          - 设计和落地OpenIM的完整部署体系，包括微服务源码Linux系统部署、Docker Compose和Kubernetes Helm Charts方案，以支持多环境的快速部署。
+          - 参与OpenKF智能客服系统项目的提案、设计和管理，从架构设计到代码实现和审核，确保高质量的项目交付。
 
 certifications:
       title: 证书
@@ -99,59 +97,70 @@ certifications:
 projects:
     title: 项目
     intro: >
-      可在此处列出你的侧项目。涉及多种技术栈和开发领域。
+      参与和主导多个关键技术项目，实施云原生和自动化解决方案。
     assignments:
       - title: OpenIM
         link: https://github.com/OpenIMSDK/Open-IM-Server
-        tagline: "OpenIM的后端服务和社区驱动的开源项目。"
+        tagline: "为OpenIM项目提供后端服务和社区驱动的核心功能。"
 
       - title: OpenKF
         link: https://github.com/OpenIMSDK/OpenKF
-        tagline: "为OpenIM相关项目提供框架和工具的开源套件。"
+        tagline: "创建 OpenKF，一个基于IM和大型语言模型的AI智能客服系统。"
+
+      - title: KubeCub
+        link: https://github.com/kubecub
+        tagline: "创建并维护开源社区 KubeCub，为云原生和开源项目提供工具和支持。"
+
+      - title: OpenIM Docker 部署
+        link: https://github.com/openimsdk/openim-docker
+        tagline: "设计使用Docker Compose使用自定义网络模式一键部署，部署自动化设计与实现。"
+
+      - title: OpenIM Kubernetes 部署
+        link: https://github.com/openimsdk/helm-charts
+        tagline: "使用Helm Charts来部署OpenIM的开源版和高级版。"
 
 oss:
     title: 开源项目贡献
     intro: >
-      你可以在这部分列出你的开源软件贡献。
+      积极贡献于多个开源软件项目，改进功能并优化性能。
     contributions:
-      - title: OpenIM
-        link: https://github.com/OpenIMSDK/Open-IM-Server
-        tagline: "为OpenIM项目提供核心功能和维护支持。"
+      - title: 阿里云 sealer
+        link: https://github.com/sealerio/sealer
+        tagline: "构建、共享和运行Kubernetes集群和分布式应用程序（CNCF下的项目）。"
 
-      - title: kubecub
-        link: https://github.com/kubecub
-        tagline: "创建并维护kubecub，为云原生和开源项目提供工具和支持。"
+      - title: 网易云 horizon
+        link: https://github.com/horizoncd/horizon
+        tagline: "适用于CloudNative 应用程序、中间件等的生产级 GitOps CD 平台。"
 
 publications:
     title: 出版物
     intro: |
-      可在这部分列出你的出版物。
+      发表多篇关于云原生架构和开源社区技术学习的文章。
     papers:
-      - title: 云原生架构深度解析
-        link: "#"
-        authors: 熊鑫伟
-        conference: 出版社，2023
+      - title: Golang 基础篇到高级篇学习
+        link: "https://go.nsddd.top/"
+        authors: Xinwei Xiong
+        conference: 出版社, 2022
+      - title: Docker & K8s & 云原生开源项目学习
+        link: "https://docker.nsddd.top/"
+        authors: Xinwei Xiong
+        conference: 出版社, 2022
 
 skills:
     title: 技能 & 精通
     toolset:
       - name: Kubernetes
-        level: 80%
-
+        level: 85%
       - name: Docker/Compose
-        level: 90%
-
+        level: 85%
       - name: Git/Github
         level: 90%
-
       - name: Golang (go)
         level: 85%
-
       - name: Shell
         level: 80%
-
       - name: CICD/Automation
-        level: 80%
+        level: 85%
 
 footer: >
     Designed by Xinwei Xiong(cubxxw). View the open-source project on <a href="https://github.com/cubxxw/resume" target="_blank" rel="nofollow">GitHub</a>.
