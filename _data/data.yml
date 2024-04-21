@@ -95,45 +95,75 @@ certifications:
             成功完成由Linux基金会提供的Kubernetes专家认证课程，掌握了Kubernetes的高级应用和管理。
 
 projects:
-    title: 项目
-    intro: >
-      参与和主导多个关键技术项目，实施云原生和自动化解决方案。
-    assignments:
-      - title: OpenIM
-        link: https://github.com/OpenIMSDK/Open-IM-Server
-        tagline: "为OpenIM项目提供后端服务和社区驱动的核心功能。"
+  title: 项目
+  intro: >
+    参与和主导多个关键技术项目，实施云原生和自动化解决方案。
+  assignments:
+    - title: OpenIM
+      link: https://github.com/OpenIMSDK/Open-IM-Server
+      tagline: "为OpenIM项目提供后端服务和社区驱动的核心功能。"
 
-      - title: OpenKF
-        link: https://github.com/OpenIMSDK/OpenKF
-        tagline: "创建 OpenKF，一个基于IM和大型语言模型的AI智能客服系统。"
+    - title: OpenKF
+      link: https://github.com/OpenIMSDK/OpenKF
+      tagline: "创建 OpenKF，一个基于IM和大型语言模型的AI智能客服系统。"
 
-      - title: KubeCub
-        link: https://github.com/kubecub
-        tagline: "创建并维护开源社区 KubeCub，为云原生和开源项目提供工具和支持。"
+    - title: KubeCub
+      link: https://github.com/kubecub
+      tagline: "创建并维护开源社区 KubeCub，为云原生和开源项目提供工具和支持。"
 
-      - title: OpenIM Docker 部署
-        link: https://github.com/openimsdk/openim-docker
-        tagline: "设计使用Docker Compose使用自定义网络模式一键部署，部署自动化设计与实现。"
+    - title: OpenIM Docker 部署
+      link: https://github.com/openimsdk/openim-docker
+      tagline: "设计使用Docker Compose使用自定义网络模式一键部署，部署自动化设计与实现。"
 
-      - title: OpenIM Kubernetes 部署
-        link: https://github.com/openimsdk/helm-charts
-        tagline: "使用Helm Charts来部署OpenIM的开源版和高级版。"
+    - title: OpenIM Kubernetes 部署
+      link: https://github.com/openimsdk/helm-charts
+      tagline: "使用Helm Charts来部署OpenIM的开源版和高级版。"
+
+    - title: CS Awesome Blockchain Docs
+      link: https://github.com/cubxxw/awesome-cs-cloudnative-blockchain
+      tagline: "Go语言、Kubernetes、Docker、CloudNative、Blockchain系列学习手册和成长记录。Github 1k+ Stars"
+
+    - title: Awesome CS Course Docs
+      link: https://github.com/cubxxw/awesome-cs-course
+      tagline: "集合多方面计算机科学课程资源与个人学习体会，提供高质量的文章和视频教程。"
+
+    - title: c-ub
+      link: https://github.com/c-ub
+      tagline: "基于区块链的全民学习系统，深入区块链技术和智能合约开发，使用Java和Spring Boot。"
+
 
 oss:
-    title: 开源项目贡献
-    intro: >
-      积极贡献于多个开源软件项目，改进功能并优化性能。
-    contributions:
-      - title: 阿里云 sealer
-        link: https://github.com/sealerio/sealer
-        tagline: "构建、共享和运行Kubernetes集群和分布式应用程序（CNCF下的项目）。"
+  title: 开源项目贡献
+  intro: >
+    积极贡献于多个开源软件项目，改进功能并优化性能。
+  contributions:
+    - title: 阿里云 Sealer
+      link: https://github.com/sealerio/sealer
+      tagline: "构建、共享和运行 Kubernetes 集群和分布式应用程序（CNCF下的项目）。"
+      details:
+        - "根据 k0s 完成 k3s 的 runtime 设计。"
+        - "实现 rootless 功能。"
+        - "定期参加 Sealer 双周会议，参与社区共建，提案设计与讨论。"
 
-      - title: 网易云 horizon
-        link: https://github.com/horizoncd/horizon
-        tagline: "适用于CloudNative 应用程序、中间件等的生产级 GitOps CD 平台。"
+    - title: 网易云 Horizon
+      link: https://github.com/horizoncd/horizon
+      tagline: "适用于 CloudNative 应用程序、中间件等的生产级 GitOps CD 平台。"
+      details:
+        - "完善 CI 部分功能。"
+        - "设计与实现 Makefile 工程能力。"
+        - "优化 ArgoCD 基础引擎模块。"
+
+    - title: Buildpacks
+      link: https://github.com/buildpacks/pack
+      tagline: "支持使用 Docker 扩展构建以及运行镜像功能的讨论和开发。"
+      details:
+        - description: "参与 RFC 讨论，推动支持通过 Docker 扩展构建和运行镜像的功能。"
+          link: https://github.com/buildpacks/pack/issues/1623
+        - description: "贡献 GSoC 提案，旨在优化和扩展 Buildpacks 功能。"
+          link: https://docs.google.com/document/d/15pZDw5u8OUoyqr9d9gB4-2-o8Gm8m1GF3lFsLA26lQ0/edit
 
 publications:
-    title: 出版物
+    title: 出版作品
     intro: |
       发表多篇关于云原生架构和开源社区技术学习的文章。
     papers:
