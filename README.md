@@ -1,5 +1,14 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/43142525-7095-45a7-928f-f304c211a54a/deploy-status)](https://app.netlify.com/sites/resume-cubxxw/deploys)
 
+</p>
+
+<p align="center">
+    <a href="./README.md"><b>English</b></a> •
+    <a href="./README_zh-CN.md"><b>中文</b></a>
+</p>
+
+</p>
+
 ## Installation
 
 * [Fork](https://github.com/cubxxw/resume/fork) the repository;
