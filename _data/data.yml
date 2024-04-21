@@ -41,16 +41,16 @@ sidebar:
     interests:
       title: 兴趣爱好
       info:
-        - item: 编程
+        - item: 编程 & 开发
           link: https://nsddd.top/zh/categories/%E5%BC%80%E5%8F%91-development/
 
-        - item: 开源
+        - item: 开源 (Open Source)
           link: https://nsddd.top/zh/tags/%E5%BC%80%E6%BA%90-open-source/
 
-        - item: 自动化
+        - item: 自动化 & DevOps
           link: https://nsddd.top/zh/tags/%E8%87%AA%E5%8A%A8%E5%8C%96-automation/
 
-        - item: 户外徒步
+        - item: 户外徒步 & 环游世界
           link: https://nsddd.top/zh/categories/%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF-personal-development/
 
 career-profile:
@@ -140,11 +140,11 @@ publications:
       - title: Golang 基础篇到高级篇学习
         link: "https://go.nsddd.top/"
         authors: Xinwei Xiong
-        conference: 出版社, 2022
+        conference: 发布于Xinwei Xiong的个人网站, 2022 - 至今
       - title: Docker & K8s & 云原生开源项目学习
         link: "https://docker.nsddd.top/"
         authors: Xinwei Xiong
-        conference: 出版社, 2022
+        conference: 发布于Xinwei Xiong的个人网站, 2022 - 至今
 
 skills:
     title: 技能 & 精通
