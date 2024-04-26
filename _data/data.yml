@@ -7,7 +7,7 @@ sidebar:
     about: True # 如果不需要“如何使用?”在侧边栏中，设置为False或注释此行
     education: True # 如果你希望教育经历显示在主要部分而不是侧边栏，请设置为False
 
-    name: 熊鑫伟
+    name: Xinwei Xiong
     tagline: 云原生后端开发人员 & 开源布道师
     avatar: profile.png
 
